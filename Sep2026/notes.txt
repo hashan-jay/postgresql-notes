@@ -1,0 +1,34 @@
+Founded in 1986
+
+Relational Database, which stores Data in Tables.
+Columns and Rows which uses SQL to write data.
+
+PostgreSQL actually: OBJECT RELATIONAL database.
+
+Which means it can create its own custom data types
+    to store objects with properties and support
+    advanced features like INHERITANCE and POLYMORPHISM.
+
+    When writing data it runs fully acid compliant transactions
+    but also adds its own special sauce called 
+    MULTIVERSION CONCURRENCY CONTROL, which gives each
+    transaction a snapshot of the database allowing multiple
+    transactions to run at the same time without traffic jams
+    or locks.
+
+    Developers also love its extensibility queries can be reused by
+    writing stored procedures and it even supports languages beyond
+    SQL like Python and C and it has a robust ecosystem of extensions
+    like POST GIS to Provide Geospatial Data for apps like Uber or Cytus
+    who shared and distribute the database to any scale or PG embedding
+    to give AI chatbots long-term memory and the list goes on.
+
+To get started you can download and install it locally or better
+yet use a free Cloud database like NEON. Which provides autoscaling
+out of the box and a nice UI to manage your data in addition to a
+bunch of other advanced features like branching.
+
+Create a new database then head over to the SQL Editor to run your
+first query or connect it to your IDE with an Extension like SQL TOOLS.
+
+We could get started by creating a new table but because 
